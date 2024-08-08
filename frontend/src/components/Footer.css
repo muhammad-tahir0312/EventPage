@@ -1,0 +1,12 @@
+#footer {
+    background-color: #131842;
+    color: white;
+    font: bolder;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: x-large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

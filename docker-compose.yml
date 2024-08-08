@@ -1,0 +1,28 @@
+services:
+  server:
+    image: mtahir0307/4thevent_page-server:latest
+    # build:
+    #   context: ./backend
+    container_name: server_container
+    ports:
+      - 3001:3001
+    env_file:
+      - ./backend/.env
+    networks:
+      - my-event-page
+
+  frontend:
+    image: mtahir0307/4thevent_page-frontend:latest
+    # build:
+    #   context: ./frontend
+    container_name: frontend_container
+    ports:
+      - 3000:3000
+    networks:
+      - my-event-page
+
+networks:
+  my-event-page:
+
+volumes:
+  mongodata:

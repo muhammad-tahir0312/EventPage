@@ -1,0 +1,24 @@
+#header {
+    background-color: #131842;
+    color: white;
+    font: bolder;
+    height: 3rem;
+    line-height: 3rem;
+    position:static;
+    /* text-align: center; */
+    font-size: x-large;
+    width: 100%;
+    top: 1;
+}
+.anchor{
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.anchor:hover{
+    color: aliceblue;
+    padding: 14px;
+}

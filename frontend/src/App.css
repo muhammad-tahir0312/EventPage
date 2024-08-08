@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E68369;
+    color: white;
+}
+
+#regform {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: black;
+    width: 40%;
+    font-weight: bolder;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.reg small {
+    color: grey;
+    font-size: small;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+.r2 {
+    margin-top: 20px;
+    display: none;
+    width: 40%;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* View Events */
+#viewDiv {
+    width: 70%;
+    margin: 0 auto; /* Center the div horizontally */
+    text-align: center;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between cells */
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Add padding to cells */
+    text-align: center; /* Center text in cells */
+}
+
+th {
+    background-color: #E48F45; /* Dark background for header */
+    color: black; /* White text color for header */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFC47E; /* Add a subtle background color to even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFE382; /* Add a subtle background color to even rows */
+}
+
+button {
+    padding: 5px 10px; /* Add padding to buttons */
+    margin: 0 2px; /* Add a small margin between buttons */
+    background-color: #131842; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Slightly round the corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #575fcf; /* Change button color on hover */
+}
